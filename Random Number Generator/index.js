@@ -5,5 +5,4 @@ let generateNumBtn = document.querySelector(".generate-num");
 
 generateNumBtn.addEventListener("click", () => {
     randomNumberEl.textContent = Math.trunc((Math.random()) * 1000)
-    console.log(randomNumberEl.textContent)
 })
