@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -14,8 +15,9 @@
     justify-content: center;
 }
 
+
 .btn{
-    padding: 10px 60px;
+    padding: 10px 20px;
     background-color: #fff;
     border: none;
     outline: none;
@@ -23,7 +25,10 @@
     font-size: 22px;
     font-weight: 500;
     border-radius: 30px;
+    margin-top: 10px;
+
 }
+
 
 .popup{
     width: 400px;
@@ -36,6 +41,7 @@
     text-align: center;
     padding: 0 30px 30px;
     display: none;
+    margin-top: -20px;
     /* transition: transform 0.4s, top 0.4s; */
     /* visibility: hidden; */
 }
