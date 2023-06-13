@@ -28,3 +28,11 @@ buttonEl.addEventListener("click", () => {
         let timeout = setTimeout(removeAfterSetTime, 2500)
     }
 })
+
+//
+
+var x = 5;
+var y = 2
+var z = x * y + y++
+
+console.log(z);
